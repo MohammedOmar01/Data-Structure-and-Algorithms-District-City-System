@@ -1,0 +1,4 @@
+omar:mohammad:6000:147:yes
+AlQuds:Qatanna:3000:300:No
+githup:web:2500:123:Yes
+Jenin:Yabad:12000:200:yes

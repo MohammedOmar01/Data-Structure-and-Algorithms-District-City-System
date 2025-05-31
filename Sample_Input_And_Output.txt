@@ -1,0 +1,316 @@
+----------------- AVL/Town Menu -----------------
+1. Insert a new town
+2. Find and update a town
+3. List all towns
+4. List towns with population > X
+5. List towns that have or not have municipalities
+6. Delete a town
+7. Save all information to 'towns.txt'
+8. Build Linear Hash Table
+0. Exit
+Choose an option: 1
+Enter district: githup
+Enter town: web
+Enter population: 2500
+Enter elevation: 123
+Has municipality?Yes
+Town 'web' inserted.
+---------------------------------------------------------------------------------------------------------------------------
+----------------- AVL/Town Menu -----------------
+1. Insert a new town
+2. Find and update a town
+3. List all towns
+4. List towns with population > X
+5. List towns that have or not have municipalities
+6. Delete a town
+7. Save all information to 'towns.txt'
+8. Build Linear Hash Table
+0. Exit
+Choose an option: 3
+
+--- All Towns (In-Order) ---
+Town: Asira | District: Nablus | Population: 8000 | Elevation: 350 | Municipality: yes
+Town: Hezma | District: AlQuds | Population: 5000 | Elevation: 550 | Municipality: yes
+Town: Qatanna | District: AlQuds | Population: 3000 | Elevation: 300 | Municipality: No
+Town: Yabad | District: Jenin | Population: 12000 | Elevation: 200 | Municipality: yes
+Town: web | District: githup | Population: 2500 | Elevation: 123 | Municipality: Yes
+---------------------------------------------------------------------------------------------------------------------------
+----------------- AVL/Town Menu -----------------
+1. Insert a new town
+2. Find and update a town
+3. List all towns
+4. List towns with population > X
+5. List towns that have or not have municipalities
+6. Delete a town
+7. Save all information to 'towns.txt'
+8. Build Linear Hash Table
+0. Exit
+Choose an option: 2
+Enter town name to find: Hezma
+Found town 'Hezma'. Current info:
+District: AlQuds | Population: 5000 | Elevation: 550 | Municipality: yes
+Enter new population: 4
+Enter new elevation: 12
+has municipality? (yes/no) in Capital please: no
+Town 'Hezma' updated ^_^
+---------------------------------------------------------------------------------------------------------------------------
+----------------- AVL/Town Menu -----------------
+1. Insert a new town
+2. Find and update a town
+3. List all towns
+4. List towns with population > X
+5. List towns that have or not have municipalities
+6. Delete a town
+7. Save all information to 'towns.txt'
+8. Build Linear Hash Table
+0. Exit
+Choose an option: 3
+
+--- All Towns (In-Order) ---
+Town: Asira | District: Nablus | Population: 8000 | Elevation: 350 | Municipality: yes
+Town: Hezma | District: AlQuds | Population: 4 | Elevation: 12 | Municipality: no
+Town: Qatanna | District: AlQuds | Population: 3000 | Elevation: 300 | Municipality: No
+Town: Yabad | District: Jenin | Population: 12000 | Elevation: 200 | Municipality: yes
+Town: web | District: githup | Population: 2500 | Elevation: 123 | Municipality: Yes
+---------------------------------------------------------------------------------------------------------------------------
+----------------- AVL/Town Menu -----------------
+1. Insert a new town
+2. Find and update a town
+3. List all towns
+4. List towns with population > X
+5. List towns that have or not have municipalities
+6. Delete a town
+7. Save all information to 'towns.txt'
+8. Build Linear Hash Table
+0. Exit
+Choose an option: 4
+Enter population limit: 4000
+
+Towns with population > 4000:
+Town: Asira | Population: 8000
+Town: Yabad | Population: 12000
+---------------------------------------------------------------------------------------------------------------------------
+----------------- AVL/Town Menu -----------------
+1. Insert a new town
+2. Find and update a town
+3. List all towns
+4. List towns with population > X
+5. List towns that have or not have municipalities
+6. Delete a town
+7. Save all information to 'towns.txt'
+8. Build Linear Hash Table
+0. Exit
+Choose an option: 5
+Enter 'yes or no ' to list towns names that have municipality
+yes
+Town: Asira| Municipality: yes
+Town: Yabad| Municipality: yes
+---------------------------------------------------------------------------------------------------------------------------
+----------------- AVL/Town Menu -----------------
+1. Insert a new town
+2. Find and update a town
+3. List all towns
+4. List towns with population > X
+5. List towns that have or not have municipalities
+6. Delete a town
+7. Save all information to 'towns.txt'
+8. Build Linear Hash Table
+0. Exit
+Choose an option: 5
+Enter 'yes or no ' to list towns names that have municipality
+no
+Town: Hezma| Municipality: no
+---------------------------------------------------------------------------------------------------------------------------
+----------------- AVL/Town Menu -----------------
+1. Insert a new town
+2. Find and update a town
+3. List all towns
+4. List towns with population > X
+5. List towns that have or not have municipalities
+6. Delete a town
+7. Save all information to 'towns.txt'
+8. Build Linear Hash Table
+0. Exit
+Choose an option: 6
+Enter town name to delete: Hezma
+Town 'Hezma' deleted ^_^
+---------------------------------------------------------------------------------------------------------------------------
+----------------- AVL/Town Menu -----------------
+1. Insert a new town
+2. Find and update a town
+3. List all towns
+4. List towns with population > X
+5. List towns that have or not have municipalities
+6. Delete a town
+7. Save all information to 'towns.txt'
+8. Build Linear Hash Table
+0. Exit
+Choose an option: 3
+
+--- All Towns (In-Order) ---
+Town: Asira | District: Nablus | Population: 8000 | Elevation: 350 | Municipality: yes
+Town: Qatanna | District: AlQuds | Population: 3000 | Elevation: 300 | Municipality: No
+Town: Yabad | District: Jenin | Population: 12000 | Elevation: 200 | Municipality: yes
+Town: web | District: githup | Population: 2500 | Elevation: 123 | Municipality: Yes
+---------------------------------------------------------------------------------------------------------------------------
+----------------- AVL/Town Menu -----------------
+1. Insert a new town
+2. Find and update a town
+3. List all towns
+4. List towns with population > X
+5. List towns that have or not have municipalities
+6. Delete a town
+7. Save all information to 'towns.txt'
+8. Build Linear Hash Table
+0. Exit
+Choose an option: 7
+data saved to towns.txt
+---------------------------------------------------------------------------------------------------------------------------
+----------------- AVL/Town Menu -----------------
+1. Insert a new town
+2. Find and update a town
+3. List all towns
+4. List towns with population > X
+5. List towns that have or not have municipalities
+6. Delete a town
+7. Save all information to 'towns.txt'
+8. Build Linear Hash Table
+0. Exit
+Choose an option: 8
+
+Linear Hash Table built from 'towns.txt'.
+---------------------------------------------------------------------------------------------------------------------------
+--- Hash Table Menu (Linear Probing) ---
+1. Print entire hash table
+2. Print size/load factor
+3. Insert a new record
+4. Search for a specific town
+5. Delete a specific record
+6. Save data back to 'towns.txt'
+0. Back to AVL Menu
+Choose an option: 1
+
+-------------------------------- HASH TABLE --------------------------------
+[0]: EMPTY
+[1]: EMPTY
+[2]: EMPTY
+[3]: EMPTY
+[4]: EMPTY
+[5]: EMPTY
+[6]: EMPTY
+[7]: EMPTY
+[8]: EMPTY
+[9]: EMPTY
+[10]: EMPTY
+[11]: EMPTY
+[12]: EMPTY
+[13]: KEY='Asira' TOWN='Asira' DISTRICT='Nablus' POPU=8000 ELEV=350 MUNI=yes
+[14]: EMPTY
+[15]: EMPTY
+[16]: EMPTY
+[17]: EMPTY
+[18]: KEY='Qatan' TOWN='Qatanna' DISTRICT='AlQuds' POPU=3000 ELEV=300 MUNI=No
+[19]: KEY='web' TOWN='web' DISTRICT='githup' POPU=2500 ELEV=123 MUNI=Yes
+[20]: EMPTY
+[21]: KEY='Yabad' TOWN='Yabad' DISTRICT='Jenin' POPU=12000 ELEV=200 MUNI=yes
+[22]: EMPTY
+---------------------------------------------------------------------------------------------------------------------------
+--- Hash Table Menu (Linear Probing) ---
+1. Print entire hash table
+2. Print size/load factor
+3. Insert a new record
+4. Search for a specific town
+5. Delete a specific record
+6. Save data back to 'towns.txt'
+0. Back to AVL Menu
+Choose an option: 2
+
+Hash Table Size: 23
+slots thats taken: 4
+Load Factor:0.173913
+---------------------------------------------------------------------------------------------------------------------------
+--- Hash Table Menu (Linear Probing) ---
+1. Print entire hash table
+2. Print size/load factor
+3. Insert a new record
+4. Search for a specific town
+5. Delete a specific record
+6. Save data back to 'towns.txt'
+0. Back to AVL Menu
+Choose an option: 3
+Enter district: omar
+Enter town: mohammad
+Enter population: 6000
+Enter elevation: 147
+Has municipality? (yes/no): yes
+Inserted 'mohammad' with 0 collisions.
+---------------------------------------------------------------------------------------------------------------------------
+--- Hash Table Menu (Linear Probing) ---
+1. Print entire hash table
+2. Print size/load factor
+3. Insert a new record
+4. Search for a specific town
+5. Delete a specific record
+6. Save data back to 'towns.txt'
+0. Back to AVL Menu
+Choose an option: 4
+Enter town name: omar
+Town 'omar' is not found, Collisions=0
+---------------------------------------------------------------------------------------------------------------------------
+--- Hash Table Menu (Linear Probing) ---
+1. Print entire hash table
+2. Print size/load factor
+3. Insert a new record
+4. Search for a specific town
+5. Delete a specific record
+6. Save data back to 'towns.txt'
+0. Back to AVL Menu
+Choose an option: 4
+Enter town name: mohammad
+Found 'mohammad' after 0 collisions.
+---------------------------------------------------------------------------------------------------------------------------
+--- Hash Table Menu (Linear Probing) ---
+1. Print entire hash table
+2. Print size/load factor
+3. Insert a new record
+4. Search for a specific town
+5. Delete a specific record
+6. Save data back to 'towns.txt'
+0. Back to AVL Menu
+Choose an option: 5
+Enter town name to delete: Asira
+Found 'Asira' after 0 collisions.
+Town 'Asira' deleted
+---------------------------------------------------------------------------------------------------------------------------
+--- Hash Table Menu (Linear Probing) ---
+1. Print entire hash table
+2. Print size/load factor
+3. Insert a new record
+4. Search for a specific town
+5. Delete a specific record
+6. Save data back to 'towns.txt'
+0. Back to AVL Menu
+Choose an option: 6
+Hash table data saved back to the file towns.txt
+---------------------------------------------------------------------------------------------------------------------------
+--- Hash Table Menu (Linear Probing) ---
+1. Print entire hash table
+2. Print size/load factor
+3. Insert a new record
+4. Search for a specific town
+5. Delete a specific record
+6. Save data back to 'towns.txt'
+0. Back to AVL Menu
+Choose an option: 0
+---------------------------------------------------------------------------------------------------------------------------
+----------------- AVL/Town Menu -----------------
+1. Insert a new town
+2. Find and update a town
+3. List all towns
+4. List towns with population > X
+5. List towns that have or not have municipalities
+6. Delete a town
+7. Save all information to 'towns.txt'
+8. Build Linear Hash Table
+0. Exit
+Choose an option:
